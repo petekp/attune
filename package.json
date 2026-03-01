@@ -1,0 +1,26 @@
+{
+  "name": "attune",
+  "version": "1.0.0",
+  "description": "An open-source adaptive runtime for recurring AI tasks. Define your task and what good looks like — the system improves over time.",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "briefing": "tsx examples/morning-briefing/run.ts"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/minimatch": "^6.0.0",
+    "@types/node": "^25.3.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.78.0",
+    "gray-matter": "^4.0.3",
+    "minimatch": "^10.2.4",
+    "yaml": "^2.8.2"
+  }
+}

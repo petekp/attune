@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*.local.md
+.env
+.env.*
+.worktrees/
+.attune-*/
